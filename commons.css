@@ -13,7 +13,9 @@
  @font-face {
     font-family: Raleway-Italic;
     src: url('./Raleway/static/Raleway-Italic.ttf');
- }
+ 
+}
+
 *{
     margin: 0;
     padding: 0;

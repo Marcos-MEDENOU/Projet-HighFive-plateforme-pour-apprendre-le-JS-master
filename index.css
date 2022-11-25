@@ -22,7 +22,11 @@
     margin-top: 150px;
 }
 
-.block_capture .block_text{
+/* .block_capture .block_text{
+    
+} */
+
+#text_capture{
     font-size: 3rem;
     font-family: Cormorant-Regular;
     margin-left: 50px;
@@ -30,6 +34,10 @@
 
 .block_capture .block_text form{
     margin-top: 15px;
+}
+.block_text form{
+    text-align: center;
+    margin-top: 25px;
 }
 .block_capture .block_text form input{
     color: white;
@@ -52,6 +60,7 @@
         padding: 5px;
         background-color: transparent;
         margin-left: 5px;
+
 }
 
 .OR{
