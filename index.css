@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Cormorant-Regular;
+    src: url('./Cormorant_Garamond/CormorantGaramond-Regular.ttf');
+}
+@font-face {
+    font-family: Cormorant-Italic;
+    src: url('./Cormorant_Garamond/CormorantGaramond-Italic.ttf');
+}
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('./Raleway/static/Raleway-Regular.ttf');
+}
+ @font-face {
+    font-family: Raleway-Italic;
+    src: url('./Raleway/static/Raleway-Italic.ttf');
+ }
+
+.block_capture{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.block_capture .block_text{
+    font-size: 3rem;
+    font-family: Cormorant-Regular;
+    margin-left: 50px;
+}
+
+.block_capture .block_text form{
+    margin-top: 15px;
+}
+.block_capture .block_text form input{
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 5px;
+}
+.block_capture .block_text form button{
+    color: white;
+        margin-top: 30px;
+        background-color: transparent;
+        height: 50px;
+        border: 2px solid white;
+        border-radius: 7px;
+        padding: 5px;
+        background-color: transparent;
+        margin-left: 5px;
+}
+
+.OR{
+    height: 80px;
+    padding-left: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    background-color: white;
+}
+
+.github-block{
+    font-family: Raleway-Regular;
+    position: relative;
+}
+.github-block span{
+    font-size: 1.5rem;
+}
+.github-block svg {
+    position: absolute;
+    margin-left: 10px;
+    bottom: 10%;
+}
+.sponsoried{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* margin-left: 60px; */
+    flex-direction: column;
+    /* position: relative; */
+}
+.sponsoried > p{
+    font-size:  3rem;
+    font-family: Cormorant-Italic;
+    /* margin-left: 70px;  */
+}
+/* .sponsoried img{
+    /* position: absolute;
+    left: 0;
+    bottom: -67px;
+    margin-top: 20px;
+    right: 50%;
+    text-align: center; 
+} */
+
+
+
+.code{
+    margin-top: 100px;
+    text-align: right;
+}
